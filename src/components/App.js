@@ -1,7 +1,5 @@
 import '../styles/components/App.scss';
-import ExampleComponent from './exampleComponent';
-import React, { useEffect, useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import React from 'react';
 
 function App() {
   return (
@@ -13,7 +11,6 @@ function App() {
         everything the weather can offer. $125.00 50% $250.00 0 Add to cart
         Challenge by Frontend Mentor. Coded by Your Name Here.
       </h1>
-      <ExampleComponent />
     </div>
   );
 }
