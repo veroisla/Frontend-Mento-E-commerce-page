@@ -1,9 +1,15 @@
 import '../styles/components/App.scss';
 import React from 'react';
+import Header from './Header';
+import Product from './Product';
 
 function App() {
   return (
     <div>
+      <Header />
+      <main>
+        <Product />
+      </main>
       <h1>
         Collections Men Women About Contact Sneaker Company Fall Limited Edition
         Sneakers These low-profile sneakers are your perfect casual wear

@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  height: 61px;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__logo {
+    height: 27px;
+    width: 163px;
+  }
+
+  &__avatar {
+    height: 35px;
+  }
+}

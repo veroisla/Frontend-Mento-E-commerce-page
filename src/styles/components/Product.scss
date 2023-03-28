@@ -1,0 +1,13 @@
+.product {
+  width: 100%;
+  &__containerMainImg {
+    background-image: url(../../images/image-product-1.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+  }
+}
